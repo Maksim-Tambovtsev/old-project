@@ -1,0 +1,301 @@
+@import url(googleapis.com/css2?family'https://fonts.=Play:wght@700&family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-primary-blue: #2b7fff;
+  --color-primary-white: #fff;
+  --color-primary-grey: #747272;
+}
+.link {
+color: black;
+  text-decoration: none;
+  font-family: Play;
+}
+
+.link:hover {
+  color: var(--color-primary-blue);
+}
+body {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.blue {
+  color: var(--color-primary-blue);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding-bottom: 16px;
+}
+li{
+  list-style-type: none;
+}
+.container {
+    max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 ;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  
+}
+/* header */
+.header-menu {
+  
+}
+.header {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 400;
+  width: 1440px;
+  height: 106px;
+}
+.header_container {
+   display: flex;
+   align-items: center;
+   backdrop-filter: blur(10px);
+  background: rgb(26 24 24 / 8%);
+  height: 106px;
+  gap: 40px;
+        }
+        
+.container-button {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 ;
+  align-items: center;
+  display: flex;
+  height: 100%;
+        }
+.link_bt {
+  padding-left: 100px;
+}
+.big-latter {
+  text-transform: uppercase;;
+   }
+.header-nav {
+display: flex;
+justify-content:center;
+flex-grow: 1; 
+white-space:nowrap;
+}
+.list {
+  display: flex;
+  gap: 54px;
+  font-size: 18px;
+}
+.nav-contact {
+display: flex;
+align-items: center;
+padding-right: 100px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 54px;
+} 
+
+.container_bigtext{
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1240px;
+}
+.bigtext_button {
+  padding: 0px;
+
+}
+
+.button-paragraf {
+  gap: 40;
+}
+.kos-klin {
+  padding: 0;
+  margin: 0 0 16 0;
+}
+.call-konsul {
+  
+  width: 238px;
+  height: 103px;
+}
+.call {
+  margin-bottom: 14px;
+  padding: 0;
+  
+}
+.konsul {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+
+}
+
+.hero_title {
+  width: 529px;
+  height: 228px;
+  font-size: 140px;
+   display: flex;
+  text-transform: capitalize
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  
+  
+}
+  
+
+button {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  border-radius: 32px;
+  width: 219px;
+  height: 53px;
+  border: 0;
+
+}
+
+
+.header_background {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+ 
+}
+/* ZONE 1 */
+.hero-section {
+ 
+}
+ul.horizontal-list {
+  list-style-type: none;
+  
+}
+ul.horizontal-list li {
+  display: inline;
+}
+
+.menubt {
+  font-family: Play;
+  font-size: 22px;
+  line-height: 21px;
+  padding: 32px 0;
+  margin: 0;
+}
+.bzone {
+  font-family: Play;
+  border: none;
+}
+/* ZONE 2 */
+.zone2 {
+  width: 1240px;
+  height: 695px;
+  
+}
+.hero2 {
+  font-size: 64px;
+  margin-bottom: 40px;
+  width: 529px;
+  height: 148px;
+}
+.text-zone2{
+  width: 709px;
+  height: 456px;
+}
+  .pzone2 {
+margin-bottom: 40px;
+  }
+.img-zone2{
+  width: 499px;
+  height: 695px;
+}
+/* SEARCH */
+.mapid {
+  max-width: 605px;
+  width: 100%;
+  height: 481px;
+  border-radius: 32px;
+}
+
+.free {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+}
+.policy {
+  color: var(--color-primary-grey);
+}
+
+
+/* ZONE 3  */
+.zone3 {
+  width: 1060px;
+  height: 377px;
+}
+.choice {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+/* ZONE 4  */
+.zone4 {
+display: flex;
+}
+.text-zone4 {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.procedur{
+  display: flex;
+}
+.photo-procedur{
+  padding-left: 0;
+  display: flex;
+  margin: 48px 32px 32px 32px;
+}
+.img-zone4{
+   width: 344px;
+   height: 456px;
+   flex-shrink: 0;
+   border-radius: 120px 4px;
+   background: linear-gradient(rgba(1, 28, 68, 0.00) 48.53%, rgba(1, 28, 68, 0.73) 84.61%, #011C44 101.39%);
+   z-index: 1;
+  overflow: hidden;
+}
+.arrow {
+  width: 44px;
+  height: 44px;
+
+  margin-top:206px;
+  text-align: center;
+}
+/* ZONE 5  */
+
+/* FOOTER */
+footer {
+  justify-content: center;
+  align-items: center;
+}
